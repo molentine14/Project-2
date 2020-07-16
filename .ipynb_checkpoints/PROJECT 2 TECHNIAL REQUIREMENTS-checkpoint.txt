@@ -1,0 +1,11 @@
+PROJECT 2 TECHNIAL REQUIREMENTS 
+
+Will be creating a jupyter notebook
+optional
+we will create a trading algorithm 
+will fit models 
+use sharpe ratio and other portfolio analysis metrics to evaluate models
+Show predictions on charts
+PNG IMAGES
+Will use web scraping to as learning model that wasnt covered in class
+CREATE READ ME
