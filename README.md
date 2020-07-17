@@ -1,7 +1,7 @@
 # Project-2
-### Core Hypothesis: If there were announcements related to COVID-19, intentions of actions by the Fed, or direct actions by the Fed then there will be correlated market movement in the stock market and bond markets
+### Core Hypothesis: If there were fed announcements related to COVID-19, intentions of actions by the Fed, or direct actions by the Fed then there will be correlated market movement in the stock market and bond markets
 
-1) To test our hypothesis we will first combine a website scraper and newsapi to gather articles mentioning keywords we believe relate to the three topics in our hypothesis.
+1) To test our hypothesis we scraped press releases straight from the Federal Reserve COVID page using BeautifulSoup python library. From the scrape we used a for loop to pull the text into a dataframe to utilize in the next steps. 
 
 2) We will then use SpaCy to analyze the following sentiment catagories related to each topic:
     - COVID-19: Does the article mention positive or negative shifts in the pandemic
